@@ -29,7 +29,7 @@ LOCAL_STATIC_LIBRARIES := \
 	libregistermsext
 
 ifeq ($(BOARD_USE_SECTVOUT),true)
-	LOCAL_CFLAGS += -DSECTVOUT
+	LOCAL_CFLAGS += -DSECTVOUT -fno-strict-aliasing
 	LOCAL_SHARED_LIBRARIES += libTVOut
 endif
 

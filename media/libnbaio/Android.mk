@@ -36,4 +36,6 @@ LOCAL_SHARED_LIBRARIES := \
 # This dependency on libmedia is for SingleStateQueueInstantiations.
 # Consider a separate a library for SingleStateQueueInstantiations.
 
+LOCAL_CFLAGS += -fno-strict-aliasing
+
 include $(BUILD_SHARED_LIBRARY)
