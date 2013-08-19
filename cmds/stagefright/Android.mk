@@ -17,7 +17,7 @@ LOCAL_C_INCLUDES:= \
 	$(TOP)/frameworks/native/include/media/openmax \
 	external/jpeg \
 
-LOCAL_CFLAGS += -Wno-multichar
+LOCAL_CFLAGS += -Wno-multichar -fno-strict-aliasing
 
 LOCAL_MODULE_TAGS := debug
 
@@ -40,7 +40,7 @@ LOCAL_C_INCLUDES:= \
 	frameworks/av/media/libstagefright \
 	$(TOP)/frameworks/native/include/media/openmax
 
-LOCAL_CFLAGS += -Wno-multichar
+LOCAL_CFLAGS += -Wno-multichar -fno-strict-aliasing
 
 LOCAL_MODULE_TAGS := debug
 
@@ -63,7 +63,7 @@ LOCAL_C_INCLUDES:= \
 	frameworks/av/media/libstagefright \
 	$(TOP)/frameworks/native/include/media/openmax
 
-LOCAL_CFLAGS += -Wno-multichar
+LOCAL_CFLAGS += -Wno-multichar -fno-strict-aliasing
 
 LOCAL_MODULE_TAGS := debug
 
@@ -87,7 +87,7 @@ LOCAL_C_INCLUDES:= \
 	frameworks/av/media/libstagefright \
 	$(TOP)/frameworks/native/include/media/openmax
 
-LOCAL_CFLAGS += -Wno-multichar
+LOCAL_CFLAGS += -Wno-multichar -fno-strict-aliasing
 
 LOCAL_MODULE_TAGS := debug
 
@@ -110,7 +110,7 @@ LOCAL_C_INCLUDES:= \
 	frameworks/av/media/libstagefright \
 	$(TOP)/frameworks/native/include/media/openmax
 
-LOCAL_CFLAGS += -Wno-multichar
+LOCAL_CFLAGS += -Wno-multichar -fno-strict-aliasing
 
 LOCAL_MODULE_TAGS := debug
 
@@ -133,7 +133,7 @@ LOCAL_C_INCLUDES:= \
 	frameworks/av/media/libstagefright \
 	$(TOP)/frameworks/native/include/media/openmax
 
-LOCAL_CFLAGS += -Wno-multichar
+LOCAL_CFLAGS += -Wno-multichar -fno-strict-aliasing
 
 LOCAL_MODULE_TAGS := debug
 
@@ -157,7 +157,7 @@ LOCAL_C_INCLUDES:= \
 	frameworks/av/media/libstagefright \
 	$(TOP)/frameworks/native/include/media/openmax
 
-LOCAL_CFLAGS += -Wno-multichar
+LOCAL_CFLAGS += -Wno-multichar -fno-strict-aliasing
 
 LOCAL_MODULE_TAGS := debug
 
@@ -180,7 +180,7 @@ LOCAL_C_INCLUDES:= \
 	frameworks/av/media/libstagefright \
 	$(TOP)/frameworks/native/include/media/openmax
 
-LOCAL_CFLAGS += -Wno-multichar
+LOCAL_CFLAGS += -Wno-multichar -fno-strict-aliasing
 
 LOCAL_MODULE_TAGS := debug
 
